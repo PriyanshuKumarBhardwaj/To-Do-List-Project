@@ -1,0 +1,59 @@
+.container-flex{
+    background-image: linear-gradient(to right,white,rgb(165, 207, 223));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDo{
+   min-width: 400px;
+    min-height: 500px;
+    background-color: rgb(244, 232, 232);
+   
+}
+
+.toDo .title h2{
+font-weight: 300;
+width:10rem;
+margin:2rem auto;
+}
+
+.inputField{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.inputField button{
+    background-color: rgb(46, 158, 46);
+    color:white;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.heading h3{
+    font-weight: 300;
+}
+
+.dynamicData{
+    border: 3px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 20rem;
+    margin:2rem auto;
+}
+.dynamicData h6,i{
+    margin:2px 3px;
+}
+
+.removeData{
+    display: flex;
+    justify-content: center;
+    margin:2rem 0px;
+}
